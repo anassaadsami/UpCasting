@@ -3,6 +3,7 @@ package UpCastingPoly;
 public class Person {
 	String name ;
 	int age ;
+	
 	public Person(String name, int age) {
 		this.name = name;
 		this.age = age;
@@ -16,7 +17,7 @@ public class Person {
 	
 
 }
-class Son extends Person{
+class Son extends Person{    // class Son inherit from Person class 
 	boolean is_study ;
 
 	public Son(String name, int age , boolean is_study) {
